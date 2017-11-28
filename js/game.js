@@ -103,14 +103,14 @@ window.Game = (function () {
   SpriteMap[ObjectType.ME] = {
     width: 61,
     height: 84,
-    url: 'img/wizard.gif'
+    url: 'img/createWizard.gif'
   };
 
   // TODO: Find a clever way
   SpriteMap[ObjectType.ME + REVERSED] = {
     width: 61,
     height: 84,
-    url: 'img/wizard-reversed.gif'
+    url: 'img/createWizard-reversed.gif'
   };
 
   SpriteMap[ObjectType.FIREBALL] = {
@@ -819,7 +819,7 @@ window.Game = (function () {
     game.setGameStatus(Verdict.INTRO);
   };
 
-  window.restartGame('img/wizard.gif', 'img/wizard-reversed.gif');
+  window.restartGame('img/createWizard.gif', 'img/createWizard-reversed.gif');
 
   return game;
 })();
